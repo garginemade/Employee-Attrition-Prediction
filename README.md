@@ -33,9 +33,24 @@ IBM HR Analytics Employee Attrition Dataset
 Among the three models, Logistic Regression performed the best based on overall evaluation metrics. The analysis showed that overtime, monthly income, and years at the company were among the most important factors influencing employee attrition.
 
 ## Project Structure
-EmployeeAttrition_GargiNemade/
+
+```text
+Employee-Attrition-Prediction/
+│
 ├── analysis.ipynb
 ├── HR_Attrition.csv
-├── summary.pdf
 ├── README.md
+├── summary.pdf
+│
 └── charts/
+    ├── attrition_rate_department.png
+    ├── attrition_rate_job_role.png
+    ├── attrition_rate_department_job_role.png
+    ├── monthly_income_boxplot.png
+    ├── attrition_vs_monthly_income.png
+    ├── attrition_vs_work_life_balance.png
+    ├── attrition_vs_years_at_company.png
+    ├── confusion_matrix.png
+    ├── top_10_feature_importance.png
+    └── roc_curve_comparison.png
+```
